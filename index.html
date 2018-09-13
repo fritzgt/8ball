@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>8 Ball</title>
+	<!-- Stylesheet reset-->
+	<link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+	  <!--ANDROID-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="8 Ball">
+
+    <!--  APPLE STUFF  -->
+	<!-- ios icon -->
+	<link rel="apple-touch-icon" href="resources/images/Ball-8-icon.png" >
+    <!-- Launch Icon Title -->
+	<meta name="apple-mobile-web-app-title" content="8 Ball">
+	<!-- iOS browser menu disabled -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- iOS status bar disabled -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font awsome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="resources/images/Ball-8-icon.png"/>
+</head>
+<body>
+<!-- App starts here-->
+ 
+<div class="align-self-center wallpaper" >
+	<!-- Generate answer button -->
+	<div class="iconBox">
+		<img class="shake" id="icon" onclick="answer()"src="resources/images/Ball-8-icon.png">
+	</div>
+	<!-- Triangule / answers -->
+	<div class="d-flex p-2 justify-content-center" >
+			 <h2 id="answerText" >^ Tap the 8 ^ Ball</h2>
+    </div>
+
+    <!-- About us section -->
+	<div id="aboutus" class="position-absolute  dropup">
+		  <button id="aboutbutton" class="fa fa-ellipsis-v" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		  </button>
+		  <div class="dropdown-menu">
+			    <h4>Instructions</h4>
+			    <ol>
+				  <li>1. Ask question.</li>
+				  <li>2. Click on the 8 ball.</li>
+				  <li>3. Get answer.</li>
+				</ol> 	
+				 <a href="https://github.com/fritzgt" target="_blank">Made by fritzgt</a>
+			    <p>Ver: 1.0</p>
+		  </div>
+	</div>
+</div>
+
+
+
+
+<!-- JS file -->
+<script type="text/javascript" src="resources/js/eightBall.js"></script>
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</body>
+</html>
